@@ -31,8 +31,21 @@
 // using the Ternary Operator to test if an operation is true or false,
 // then returning the value assigned for the value thats either true or false:
 
-let age = 18;
+// let age = 18;
 
-let msg = (age == 16) ? "You are 16" : "You are not 16";
+// let msg = (age == 16) ? "You are 16" : "You are not 16";
 
-console.log(msg);
+// console.log(msg);
+let coding = [
+    "JavaScript",
+    "Python",
+    "CPP"
+]
+
+for (let i = 0; i <= 5; i++) {
+    console.log(i);
+
+    for (let j = 1; j <= 3; j++) {
+        console.log("Inner loop" + j);
+    }
+}
