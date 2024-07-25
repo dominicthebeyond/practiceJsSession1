@@ -50,10 +50,18 @@
 //     }
 // }
 
-let i = 0;
+// let i = 0;
 
-while (i <= 10) {
+// while (i <= 10) {
+//     // code to be repeated
+//     console.log(i);
+//     i++;
+// }
+
+let i = 1;
+
+do {
     // code to be repeated
     console.log(i);
     i++;
-}
+} while (i <= 5);
