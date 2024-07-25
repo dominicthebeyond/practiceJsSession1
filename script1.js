@@ -58,10 +58,18 @@
 //     i++;
 // }
 
-let i = 1;
+// let i = 1;
 
-do {
-    // code to be repeated
+// do {
+//     // code to be repeated
+//     console.log(i);
+//     i++;
+// } while (i <= 5);
+
+for (let i = 1; i <= 5; i++) {
+
+    if (i == 3) {
+        continue;
+    }
     console.log(i);
-    i++;
-} while (i <= 5);
+}
