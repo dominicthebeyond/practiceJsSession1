@@ -36,16 +36,24 @@
 // let msg = (age == 16) ? "You are 16" : "You are not 16";
 
 // console.log(msg);
-let coding = [
-    "JavaScript",
-    "Python",
-    "CPP"
-]
+// let coding = [
+//     "JavaScript",
+//     "Python",
+//     "CPP"
+// ]
 
-for (let i = 0; i <= 5; i++) {
+// for (let i = 0; i <= 5; i++) {
+//     console.log(i);
+
+//     for (let j = 1; j <= 3; j++) {
+//         console.log("Inner loop" + j);
+//     }
+// }
+
+let i = 0;
+
+while (i <= 10) {
+    // code to be repeated
     console.log(i);
-
-    for (let j = 1; j <= 3; j++) {
-        console.log("Inner loop" + j);
-    }
+    i++;
 }
